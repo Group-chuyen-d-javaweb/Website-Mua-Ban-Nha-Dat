@@ -33,8 +33,8 @@ public class UserEntity extends BaseEntity {
 	@Column(name = "email")
 	private String email;
 	
-	@Column(name = "telephonenumber")
-	private String telephoneNumber;
+	@Column(name = "phonenumber")
+	private String phoneNumber;
 	
 	@Column(name = "address")
 	private String address;

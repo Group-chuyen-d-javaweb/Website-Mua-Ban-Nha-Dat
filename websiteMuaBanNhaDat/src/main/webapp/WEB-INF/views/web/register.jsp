@@ -44,8 +44,8 @@
 					</div>
 					<div>
 						<span style="color: white; margin-right: 15px;">Số điện
-							thoại </span> <input type="text" id="telephoneNumber"
-							name="telephoneNumber" placeholder="Số điện thoại">
+							thoại </span> <input type="text" id="phoneNumber"
+							name="phoneNumber" placeholder="Số điện thoại">
 					</div>
 					<div>
 						<span class="word" style="color: white; margin-right: 50px;">Địa
