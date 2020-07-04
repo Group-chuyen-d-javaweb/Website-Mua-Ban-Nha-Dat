@@ -10,6 +10,12 @@ body a{
     -moz-transition: 0.5s all;
     -ms-transition: 0.5s all;
 }
+#tb:hover {
+	animation: swing 1s ease;
+	border-color: #00c6d7;
+	box-shadow: 0 10px 6px -6px #777;
+	color: #00c6d7;
+}
 ul{
     padding: 0;
     margin: 0;

@@ -62,57 +62,6 @@ ul.callbacks_tabs.callbacks1_tabs {
 	<!-- Footer -->
 	<%@ include file="/common/web/footer.jsp"%>
 
-	<!-- Bootstrap core JavaScript -->
-	<%-- <script src="<c:url value = 'template/js/jquery.validate.min.js'/>"></script> --%>
-	<script src="<c:url value = 'template/js/jquery.min.js'/>"></script>
-	<script
-		src="<c:url value='/template/web/vendor/jquery/jquery.min.js'/>"></script>
-	<script
-		src="<c:url value='/template/web/vendor/bootstrap/js/bootstrap.bundle.min.js'/>"></script>
-	<script type="text/javascript"
-		src="<c:url value = 'template/js/jquery.flexisel.js'/>"></script>
-	<script type="text/javascript"
-		src="<c:url value = 'template/js/move-top.js'/>"></script>
-	<script type="text/javascript"
-		src="<c:url value = 'template/js/easing.js'/>"></script>
-	<script type="text/javascript"
-		src="<c:url value = 'template/js/responsiveslides.min.js'/>"></script>
-	<script type="application/x-javascript">
-		
-		 addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } 
 	
-	</script>
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$("#luuthongtin").click(function() {
-
-				$("#luuthongtin").html("Đã Lưu");
-				$("#luuthongtin").css('cursor', 'unset');
-			});
-		});
-
-		$(function() {
-			$("#slider1").responsiveSlides({
-				auto : true,
-				speed : 100,
-				namespace : "callbacks",
-				pager : true,
-			});
-		});
-		$(document).ready(function(c) {
-			$('.alert-close').on('click', function(c) {
-				$('.message').fadeOut('slow', function(c) {
-					$('.message').remove();
-				});
-			});
-		});
-		$(document).ready(function(c) {
-			$('.alert-close1').on('click', function(c) {
-				$('.message1').fadeOut('slow', function(c) {
-					$('.message1').remove();
-				});
-			});
-		});
-	</script>
 </body>
 </html>

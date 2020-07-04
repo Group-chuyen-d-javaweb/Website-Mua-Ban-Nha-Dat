@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@include file="/common/taglib.jsp"%>	
+<%@include file="/common/taglib.jsp"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -21,8 +21,9 @@
 					<div>
 						<span style="color: white;">Tên Đăng Nhập </span> <input
 							type="text" id="userName" name="j_username"
-							placeholder="Tên đăng nhập">
+							placeholder="Tên đăng nhập" onkeyup="validate()">
 					</div>
+					
 					<div>
 						<span class="word" style="color: white; margin-right: 33px;">Mật
 							Khẩu </span> <input type="password" id="password" name="j_password"
@@ -33,18 +34,9 @@
 					<button type="submit" id="tb" class="btn btn-primary"
 						style="background: rgba(0, 0, 0, 0.4); border: 1px solid black; margin-top: 55px;">Đăng
 						nhập</button>
-					<script>
-						grecaptcha.ready(function() {
-							grecaptcha.execute(
-									'6Ldy2YMUAAAAAG2CYNQEAeWH3iVAMPKALvw2enf1',
-									{
-										action : 'action_name'
-									}).then(function(token) {
-								// Verify the token on the server.
-							});
-						});
-					</script>
+
 				</form>
+			
 			</div>
 		</div>
 	</div>

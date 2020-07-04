@@ -60,17 +60,19 @@ public class JPAConfig {
 		Properties properties = new Properties();
 
 		
-		  properties.setProperty(SystemConstant.DATABASE_HIBERNATE_AUTO,
-		  SystemConstant.CREATE);
-		  
-		  properties.setProperty(SystemConstant.DATABASE_HIBERNATE_AUTO,
-		  SystemConstant.UPDATE);
 		/*
 		 * properties.setProperty(SystemConstant.DATABASE_HIBERNATE_AUTO,
-		 * SystemConstant.NONE);
-		 * properties.setProperty(SystemConstant.DATABASE_ENABLE_LAZY,
-		 * SystemConstant.TRUE);
+		 * SystemConstant.CREATE);
+		 * 
+		 * properties.setProperty(SystemConstant.DATABASE_HIBERNATE_AUTO,
+		 * SystemConstant.UPDATE);
 		 */
+		
+		  properties.setProperty(SystemConstant.DATABASE_HIBERNATE_AUTO,
+		  SystemConstant.NONE);
+		  properties.setProperty(SystemConstant.DATABASE_ENABLE_LAZY,
+		  SystemConstant.TRUE);
+		 
 		return properties;
 	}
 }
